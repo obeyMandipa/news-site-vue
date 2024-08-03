@@ -9,8 +9,57 @@
     </div>
   </div>
   <main class="flex justify-between ">
-    <div class="categories w-[20%] h-[88vh] bg-red-200"></div>
-    <div class="newsheadlines  w-[45%] bg-blue-200"></div>
+    <div class="categories w-[20%] h-[88vh] bg-red-200 pl-[30px]">
+      <div class="h-[525px] bg-white border rounded-md mt-[120px]">
+        <p class="p-[20px] border text-[18px] border-b-2">Categories</p>
+      </div>
+      <div class="h-[200px] bg-white border rounded-md mt-[20px]">
+        <p class="p-[20px] border text-[18px] border-b-2">Settings</p>
+      </div>
+    </div>
+    <div class="newsheadlines  w-[45%] bg-blue-200">
+      <h2 class=" mt-[40px]  text-[25px] font-bold absolute">News category..space">
+        <div class="bg-red-300">
+          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
+          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+          </div>
+          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
+          <p class="author text-[18px] font-serif">R.O Mandipa</p>
+          <p class="mt-[20px] ">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam quis totam!
+          </p>
+        </div>
+        <div class="bg-red-300">
+          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
+          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+          </div>
+          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
+          <p class="author text-[18px] font-serif">R.O Mandipa</p>
+          <p class="mt-[20px] ">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam quis totam!
+          </p>
+        </div>
+        <div class="bg-red-300">
+          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
+          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+          </div>
+          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
+          <p class="author text-[18px] font-serif">R.O Mandipa</p>
+          <p class="mt-[20px] ">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam quis totam!
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="relatednews  w-[30%] bg-green-200"></div>
   </main>
 </template>
