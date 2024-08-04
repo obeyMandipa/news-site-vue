@@ -22,7 +22,7 @@
       <div class=" mt-[120px]  h-[76vh] relative overflow-auto space-y-12">
         <div class="bg-white">
           <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
+          <div class="reactions flex w-[210px] justify-between ml-[auto] relative mt-[15px] pr-[10px]">
             <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
             <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
             <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
@@ -39,37 +39,22 @@
             You'd first need to summarize the model quality into an understandable way. If you compare predicted and actual home values for 10,000 houses, you'll likely find mix of good and bad predictions. Looking through a list of 10,000 predicted and actual values would be pointless. We need to summarize this into a single metric.
           </p>
         </div>
-        <div class="">
-          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-          </div>
-          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
-          <p class="author text-[18px] font-serif">R.O Mandipa</p>
-          <p class="mt-[20px] ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem 
-            voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam 
-            quis totam!
-          </p>
-        </div>
-        <div class="">
-          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions flex w-[200px] justify-between ml-[auto] relative mt-[10px]">
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-          </div>
-          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
-          <p class="author text-[18px] font-serif">R.O Mandipa</p>
-          <p class="mt-[20px] ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam quis totam!
-          </p>
-        </div>
       </div>
     </div>
-    <div class="relatednews  w-[30%] bg-green-200"></div>
+    <div class="relatednews  w-[30%] bg-green-200 pr-[30px]">
+      <h2 class=" mt-[40px]  text-[25px] font-bold absolute">Related topics...</h2>
+      <div class="mt-[120px] bg-white  h-[76vh] relative overflow-auto space-y-12">
+        <div class="">
+          <img src="" alt="" class="h-[300px] border rounded-xl border-black">
+          <div class="reactions bg-red-300 pr-[10px]  relative mt-[15px]">
+            <div class="h-[50px] w-[50px] rounded-full bg-blue-300 ml-[auto] "></div>
+          </div>
+          <h5 class="mt-[20px] text-[20px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
+        </div>
+        
+        
+      </div>
+    </div>
   </main>
 </template>
 
