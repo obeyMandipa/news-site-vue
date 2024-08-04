@@ -22,10 +22,20 @@
       <div class=" mt-[120px]  h-[76vh] relative overflow-auto space-y-12">
         <div class="bg-white">
           <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions flex w-[210px] justify-between ml-[auto] relative mt-[15px] pr-[10px]">
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300"></div>
+          <div class="reactions bg-red-300 flex w-[180px] justify-between relative mt-[15px] pr-[10px]">
+            <label class="swap ">
+                <input type="checkbox" />
+                <div class="swap-off "><img src="@/assets/icons/hate.png" alt="like" class="h-[30px] w-[30px]"></div>
+                <div class="swap-on"><img src="@/assets/icons/like.png" alt="hate" class="h-[30px] w-[30px]"></div>
+              </label>
+              
+            <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
+              <img src="@/assets/icons/share.png" alt="hate" class="h-[30px] w-[30px]">
+            </div>
+            <div class="indicator">
+              <span class="indicator-item badge badge-secondary">99+</span>
+              <div class="h-[50px] w-[50px] bg-blue-400 rounded-full  ml-[auto] "></div>
+            </div>
           </div>
           <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
           <p class="author text-[18px] font-serif">R.O Mandipa</p>
@@ -41,13 +51,13 @@
         </div>
       </div>
     </div>
-    <div class="relatednews  w-[30%] bg-green-200 pr-[30px]">
+    <div class="relatednews  w-[30%] pr-[30px]">
       <h2 class=" mt-[40px]  text-[25px] font-bold absolute">Related topics...</h2>
-      <div class="mt-[120px] bg-white  h-[76vh] relative overflow-auto space-y-12">
-        <div class="">
+      <div class="mt-[120px]   h-[76vh] relative overflow-auto space-y-12">
+        <div class="bg-white">
           <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions bg-red-300 pr-[10px]  relative mt-[15px]">
-            <div class="h-[50px] w-[50px] rounded-full bg-blue-300 ml-[auto] "></div>
+          <div class="reactions pr-[10px]  relative mt-[15px]">
+            <div class="h-[50px] w-[50px] bg-blue-400 rounded-full  ml-[auto] "></div>
           </div>
           <h5 class="mt-[20px] text-[20px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
         </div>
