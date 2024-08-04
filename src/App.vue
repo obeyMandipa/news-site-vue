@@ -8,7 +8,7 @@
       <img src="" alt="notification">
     </div>
   </div>
-  <main class="flex justify-between bg-[#f7f3f3] ">
+  <main class="flex justify-between bg-[#f4f6fd] ">
     <div class="categories w-[20%] h-[88vh] pl-[30px]">
       <div class="h-[525px] bg-white  rounded-xl mt-[120px]">
         <p class="p-[20px]  text-[18px] border-b-2 border-black">Categories</p>
@@ -22,7 +22,7 @@
       <div class=" mt-[120px]  h-[76vh] relative overflow-auto space-y-12">
         <div class="bg-white">
           <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-          <div class="reactions bg-red-300 flex w-[180px] justify-between relative mt-[15px] pr-[10px]">
+          <div class="reactions flex w-[180px] ml-[auto] justify-between relative mt-[15px] pr-[10px]">
             <label class="swap ">
                 <input type="checkbox" />
                 <div class="swap-off "><img src="@/assets/icons/hate.png" alt="like" class="h-[30px] w-[30px]"></div>
@@ -33,8 +33,10 @@
               <img src="@/assets/icons/share.png" alt="hate" class="h-[30px] w-[30px]">
             </div>
             <div class="indicator">
-              <span class="indicator-item badge badge-secondary">99+</span>
-              <div class="h-[50px] w-[50px] bg-blue-400 rounded-full  ml-[auto] "></div>
+              <span class="indicator-item badge badge-secondary bg-black border-2 h-[30px] w-[30px] text-white font-bold mt-[7px] m-[5px] border-white">99</span>
+              <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
+                <img src="@/assets/icons/read.png" alt="hate" class="h-[30px] w-[30px]">
+              </div>
             </div>
           </div>
           <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
@@ -57,7 +59,14 @@
         <div class="bg-white">
           <img src="" alt="" class="h-[300px] border rounded-xl border-black">
           <div class="reactions pr-[10px]  relative mt-[15px]">
-            <div class="h-[50px] w-[50px] bg-blue-400 rounded-full  ml-[auto] "></div>
+            <div class="h-[50px] w-[50px] rounded-full  ml-[auto] ">
+              <div class="indicator">
+              <span class="indicator-item badge badge-secondary bg-black border-2 h-[30px] w-[30px] text-white font-bold mt-[7px] m-[5px] border-white">40</span>
+              <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
+                <img src="@/assets/icons/read.png" alt="hate" class="h-[30px] w-[30px]">
+              </div>
+            </div>
+            </div>
           </div>
           <h5 class="mt-[20px] text-[20px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
         </div>
