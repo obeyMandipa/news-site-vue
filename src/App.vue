@@ -34,42 +34,44 @@
         <p class="p-[20px]  text-[18px] border-b-2 border-black" >Settings</p>
       </div>
     </div>
-    <div class="newsheadlines  w-[45%] ">
-      <h2 class=" mt-[40px]  text-[25px] font-bold absolute">News category...</h2>
-      <div class=" mt-[120px]  h-[76vh] relative overflow-auto space-y-12">
-          <div class="bg-white">
-            <img src="" alt="" class="h-[300px] border rounded-xl border-black">
-            <div class="reactions flex w-[180px] ml-[auto] justify-between relative mt-[15px] pr-[10px]">
-              <label class="swap ">
-                  <input type="checkbox" />
-                  <div class="swap-off "><img src="@/assets/icons/hate.png" alt="like" class="h-[30px] w-[30px]"></div>
-                  <div class="swap-on"><img src="@/assets/icons/like.png" alt="hate" class="h-[30px] w-[30px]"></div>
-                </label>
-                
-              <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
-                <img src="@/assets/icons/share.png" alt="hate" class="h-[30px] w-[30px]">
-              </div>
-              <div class="indicator">
-                <span class="indicator-item badge badge-secondary bg-black border-2 h-[30px] w-[30px] text-white font-bold mt-[7px] m-[5px] border-white">99</span>
-                <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
-                  <img src="@/assets/icons/read.png" alt="hate" class="h-[30px] w-[30px]">
-                </div>
-              </div>
+
+    <div  class="newsheadlines  w-[45%] bg-red-300 ">
+          <h2 class=" mt-[40px]  text-[25px] font-bold absolute">News category...</h2>
+          <div class=" mt-[120px]  h-[76vh] relative overflow-auto space-y-12">
+            <div class="bg-white">
+              <!-- list -->
+              <ul v-if="newsData.length">
+                <li v-for="(newsItem, index) in newsData" :key="index">
+                  <img src="" alt="" class="h-[300px] border rounded-xl border-black">
+                  <div class="reactions flex w-[180px] ml-[auto] justify-between relative mt-[15px] pr-[10px]">
+                    <label class="swap ">
+                        <input type="checkbox" />
+                        <div class="swap-off "><img src="@/assets/icons/hate.png" alt="like" class="h-[30px] w-[30px]"></div>
+                        <div class="swap-on"><img src="@/assets/icons/like.png" alt="hate" class="h-[30px] w-[30px]"></div>
+                      </label>
+                      
+                    <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
+                      <img src="@/assets/icons/share.png" alt="hate" class="h-[30px] w-[30px]">
+                    </div>
+                    <div class="indicator">
+                      <span class="indicator-item badge badge-secondary bg-black border-2 h-[30px] w-[30px] text-white font-bold mt-[7px] m-[5px] border-white">99</span>
+                      <div class="h-[50px] w-[50px] rounded-full flex justify-center items-center">
+                        <img src="@/assets/icons/read.png" alt="hate" class="h-[30px] w-[30px]">
+                      </div>
+                    </div>
+                  </div>
+                  <h5 class="mt-[20px] text-[25px] font-bold">{{ newsItem.title }}</h5>
+                  <p class="author text-[18px] font-serif">{{ newsItem.pubDate }}</p>
+                  <p class="mt-[20px] text-[17px]"> {{ newsItem.description }}</p>        
+                </li>
+              </ul>
+
+              <!-- list -->
             </div>
-          <h5 class="mt-[20px] text-[25px] font-bold">Turkey blocks Instagram access in “censorship” row after Hamas leader’s assassination</h5>
-          <p class="author text-[18px] font-serif">R.O Mandipa</p>
-            <p class="mt-[20px] text-[17px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam itaque temporibus vero, exercitationem voluptate assumenda molestias quaerat, ipsa tempora dolorem veritatis ea possimus eaque, voluptates beatae ullam quis totam!
-
-            You'll want to evaluate almost every model you ever build. In most (though not all) applications, the relevant measure of model quality is predictive accuracy. In other words, will the model's predictions be close to what actually happens.
-
-            Many people make a huge mistake when measuring predictive accuracy. They make predictions with their training data and compare those predictions to the target values in the training data. You'll see the problem with this approach and how to solve it in a moment, but let's think about how we'd do this first.
-
-            You'd first need to summarize the model quality into an understandable way. If you compare predicted and actual home values for 10,000 houses, you'll likely find mix of good and bad predictions. Looking through a list of 10,000 predicted and actual values would be pointless. We need to summarize this into a single metric.
-            </p>
           </div>
-        </div>
+        
     </div>
+
     <div class="relatednews  w-[30%] pr-[30px]">
       <h2 class=" mt-[40px]  text-[25px] font-bold absolute">Related topics...</h2>
       <div class="mt-[120px]   h-[76vh] relative overflow-auto space-y-12">
