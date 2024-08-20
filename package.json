@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors-anywhere": "^0.4.4",
     "vue": "^3.4.29"
   },
   "devDependencies": {
